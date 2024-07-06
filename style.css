@@ -1,0 +1,150 @@
+*, ::after, ::before {
+    box-sizing: border-box;}
+.nav-link:hover
+{
+    background-color: rgb(200, 255, 0);
+    
+    transform: scale(1.1); 
+  }
+body{
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    /* color: var(--bs-body-color); */
+    /* text-align: var(--bs-body-text-align); */
+    /* background-color: var(--bs-body-bg); */
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    word-wrap: break-word;
+    background-color: yellow;
+}
+
+.body
+{
+    margin: 20px;
+    margin-top: 20px;
+    /* background-color: #fff6e7; */
+    border: 3px solid;
+    box-shadow: 5px 5px black;
+    border-radius: 20px;
+    margin: 80px;
+    margin-top: 60px;
+    word-wrap: break-word;
+}
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+.contcontainer {
+    background-color: white;
+    border-radius: .75rem;
+    box-shadow: 5px 5px;
+    border: 3px solid;
+    color: black;
+    padding: 20px;
+}
+.bgimage {
+    height:100vh;
+    background: url('./2202758.jpg');
+    background-size:cover;
+    position:relative;
+    
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    color: black;
+}
+.hero_desc {
+    font-size: 3rem;
+    color: darkred;
+    border: 2px solid white;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.skillbar {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.skillbar-bar:before {
+    background: #eee;
+    content: "";
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.skillbar-bar {
+    height: 3px;
+    width: 0px;
+    background: #323232;
+    transition-property: width, background-color;
+}
+
+.skillbar-title {
+    color: #323232;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.skill-bar-percent {
+    float: right;
+    display: inline-block;
+    color: #323232;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.skl
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 700;
+}
+.row
+{
+    background-color: white;
+    border-radius: .75rem;
+    box-shadow: 5px 5px;
+    border: 3px solid;
+    color: black;
+    padding: 20px;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+/* CENTERING ONLY */
+
+
+
+/* <div class="col-12 col-lg-6 col-xl-7">
+<div class="row justify-content-xl-center">
+  <div class="m-lg-5 m-4 p-2 flex-fill"><h1 class="fw-bold">About me</h1>
+    <p>I wasn’t always a designer. Previously, I worked at a factory as a manager.<br><br>In 2023, I quit my job, and become a self-taught web designer.<br><br>
+    Now, I am learning full stake web developing, mostly designing &amp; building Webflow websites &amp; online stores. The thing I like about web developing is the opportunity to help small businesses.<br><br>
+    In June 2023 i started learning web designing, where my main focus is design with the goal of user acquisition. I'm very pasionate towards coding, developing, designing..<br><br>
+    I enjoy making things such as Websites, Videos, blogs, content wrigting..<br><br>    
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-suit-heart" viewBox="0 0 16 16">
+      <path d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"></path>
+    </svg> I love coding, photography, travel, sports, and good design..</p>
+   <a target="_blank" href="https://www.instagram.com/tusharspamz"><button class="btn3 p-2">Check Out</button></a> 
+</div>
+</div>
+</div> */
